@@ -1,0 +1,28 @@
+{
+	"name": "@alebooking/common",
+	"version": "1.0.0",
+	"description": "Core shared comonents for AleBooking microsrevice ecosystem",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"format": "prettier --write \"lib/**/*.ts\""
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"license": "ISC",
+	"author": {
+		"name": "Alebro",
+		"email": "info@alebooking.com"
+	},
+	"devDependencies": {
+		"@alebooking/core": "^2.0.2",
+		"@types/node": "^25.2.0",
+		"prettier": "^3.8.1",
+		"typescript": "^5.9.3"
+	}
+}

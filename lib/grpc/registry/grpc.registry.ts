@@ -41,5 +41,15 @@ export const GRPC_CLIENTS = {
 		package: 'theater.v1',
 		protoPath: PROTO_PATH.THEATER,
 		env: 'THEATER_GRPC_URL'
+	},
+	HALL_PACKAGE: {
+		package: 'hall.v1',
+		protoPath: PROTO_PATH.HALL,
+		env: 'HALL_GRPC_URL'
+	},
+	SEAT_PACKAGE: {
+		package: 'seat.v1',
+		protoPath: PROTO_PATH.SEAT,
+		env: 'SEAT_GRPC_URL'
 	}
 } as const satisfies Record<string, GrpcClientOptions>

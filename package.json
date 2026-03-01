@@ -1,6 +1,6 @@
 {
 	"name": "@alebooking/common",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"description": "Core shared comonents for AleBooking microsrevice ecosystem",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

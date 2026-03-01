@@ -26,7 +26,7 @@
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
-		"@alebooking/contracts": "^1.1.12",
+		"@alebooking/contracts": "^1.1.14",
 		"@nestjs/common": "^11.1.13",
 		"@nestjs/config": "^4.0.3",
 		"@nestjs/microservices": "^11.1.13",

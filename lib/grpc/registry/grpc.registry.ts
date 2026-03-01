@@ -51,5 +51,10 @@ export const GRPC_CLIENTS = {
 		package: 'seat.v1',
 		protoPath: PROTO_PATH.SEAT,
 		env: 'SEAT_GRPC_URL'
+	},
+	SCREENING_PACKAGE: {
+		package: 'screening.v1',
+		protoPath: PROTO_PATH.SCREENING,
+		env: 'SCREENING_GRPC_URL'
 	}
 } as const satisfies Record<string, GrpcClientOptions>

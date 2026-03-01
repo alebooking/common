@@ -1,3 +1,5 @@
 export * from './env'
 export * from './convert-enum'
 export * from './timestamp-to-iso'
+export * from './proto-date.decorator'
+export * from './proto-transform'
